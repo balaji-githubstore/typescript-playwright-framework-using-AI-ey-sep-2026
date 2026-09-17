@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://playwright.dev",
+  "timeout": 30000,
+  "username": "qa_user",
+  "password": "qa_pass"
+}

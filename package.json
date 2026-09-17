@@ -1,0 +1,19 @@
+{
+  "name": "automation-framework-ai",
+  "version": "1.0.0",
+  "description": "Scalable Playwright TypeScript automation framework using Page Object Model",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:dev": "cross-env ENV=dev playwright test",
+    "test:qa": "cross-env ENV=qa playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.0",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.6.0"
+  }
+}
