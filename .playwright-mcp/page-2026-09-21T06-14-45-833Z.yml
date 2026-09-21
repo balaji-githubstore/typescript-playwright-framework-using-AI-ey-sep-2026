@@ -1,0 +1,312 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - navigation [ref=f1e3]:
+      - link [ref=f1e4] [cursor=pointer]:
+        - /url: https://www.open-emr.org/
+        - img "Main Menu Logo" [ref=f1e5]
+      - generic [ref=f1e7]:
+        - generic [ref=f1e8]: Calendar
+        - generic [ref=f1e10]: Finder
+        - generic [ref=f1e12]: Flow
+        - generic [ref=f1e14]: Recalls
+        - generic [ref=f1e16]: Messages
+        - generic [ref=f1e19]:
+          - button "Patient" [ref=f1e20] [cursor=pointer]
+          - text:  
+        - button "Fees" [ref=f1e23] [cursor=pointer]
+        - button "Modules" [ref=f1e26] [cursor=pointer]
+        - button "Procedures" [ref=f1e29] [cursor=pointer]
+        - generic [ref=f1e31]:
+          - button "Admin" [ref=f1e32] [cursor=pointer]
+          - text:       
+        - generic [ref=f1e34]:
+          - button "Reports" [ref=f1e35] [cursor=pointer]
+          - text:         
+        - generic [ref=f1e37]:
+          - button "Miscellaneous" [ref=f1e38] [cursor=pointer]
+          - text: 
+        - button "Popups" [ref=f1e41] [cursor=pointer]
+      - generic [ref=f1e43]:
+        - textbox "Search by any demographics" [ref=f1e44]
+        - button "" [ref=f1e46] [cursor=pointer]
+      - generic [ref=f1e49]:
+        - button "" [ref=f1e50] [cursor=pointer]:
+          - generic [ref=f1e51]:
+            - generic [ref=f1e52]: 
+            - generic [aria-hidden] [ref=f1e53]: 
+        - text:     
+    - generic [ref=f1e59]:
+      - generic [aria-hidden] [ref=f1e61]: 
+      - generic [ref=f1e62] [cursor=pointer]:
+        - text: Calendar
+        - generic [ref=f1e63]: 
+        - generic [ref=f1e64]: 
+        - generic [ref=f1e65]: 
+      - generic [ref=f1e66] [cursor=pointer]:
+        - text: Message Center
+        - generic [ref=f1e67]: 
+        - generic [ref=f1e68]: 
+        - generic [ref=f1e69]: 
+    - iframe [ref=f1e74]:
+      - generic [ref=f4e3]:
+        - generic [ref=f4e5]:
+          - generic [ref=f4e6]:
+            - link "" [ref=f4e7] [cursor=pointer]:
+              - /url: "#"
+            - link "+" [ref=f4e9] [cursor=pointer]:
+              - /url: "#"
+            - link "" [ref=f4e11] [cursor=pointer]:
+              - /url: "#"
+          - generic [ref=f4e13]:
+            - link "" [ref=f4e14] [cursor=pointer]:
+              - /url: /b/openemr/interface/main/calendar/index.php?module=PostCalendar&func=view&viewtype=day&Date=20260920&pc_username=admin&pc_category=&pc_topic=
+            - text: Monday, September 21, 2026
+            - link "" [ref=f4e16] [cursor=pointer]:
+              - /url: /b/openemr/interface/main/calendar/index.php?module=PostCalendar&func=view&viewtype=day&Date=20260922&pc_username=admin&pc_category=&pc_topic=
+          - generic [ref=f4e18]:
+            - link "" [ref=f4e19] [cursor=pointer]:
+              - /url: "#"
+            - link "" [ref=f4e21] [cursor=pointer]:
+              - /url: "#"
+            - link "Day" [ref=f4e23] [cursor=pointer]:
+              - /url: "#"
+            - link "Week" [ref=f4e24] [cursor=pointer]:
+              - /url: "#"
+            - link "Month" [ref=f4e25] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f4e26]:
+          - table [ref=f4e29]:
+            - rowgroup [ref=f4e30]:
+              - row [ref=f4e31]:
+                - cell "<" [ref=f4e32] [cursor=pointer]
+                - cell "September 2026" [ref=f4e33] [cursor=pointer]
+                - cell ">" [ref=f4e34] [cursor=pointer]
+              - row [ref=f4e35]:
+                - cell "M" [ref=f4e36]
+                - cell "T" [ref=f4e37]
+                - cell "W" [ref=f4e38]
+                - cell "T" [ref=f4e39]
+                - cell "F" [ref=f4e40]
+                - cell "S" [ref=f4e41]
+                - cell "S" [ref=f4e42]
+              - row [ref=f4e43]:
+                - cell "31" [ref=f4e44] [cursor=pointer]
+                - cell "1" [ref=f4e45] [cursor=pointer]
+                - cell "2" [ref=f4e46] [cursor=pointer]
+                - cell "3" [ref=f4e47] [cursor=pointer]
+                - cell "4" [ref=f4e48] [cursor=pointer]
+                - cell "5" [ref=f4e49] [cursor=pointer]
+                - cell "6" [ref=f4e50] [cursor=pointer]
+              - row [ref=f4e51]:
+                - cell "7" [ref=f4e52] [cursor=pointer]
+                - cell "8" [ref=f4e53] [cursor=pointer]
+                - cell "9" [ref=f4e54] [cursor=pointer]
+                - cell "10" [ref=f4e55] [cursor=pointer]
+                - cell "11" [ref=f4e56] [cursor=pointer]
+                - cell "12" [ref=f4e57] [cursor=pointer]
+                - cell "13" [ref=f4e58] [cursor=pointer]
+              - row [ref=f4e59]:
+                - cell "14" [ref=f4e60] [cursor=pointer]
+                - cell "15" [ref=f4e61] [cursor=pointer]
+                - cell "16" [ref=f4e62] [cursor=pointer]
+                - cell "17" [ref=f4e63] [cursor=pointer]
+                - cell "18" [ref=f4e64] [cursor=pointer]
+                - cell "19" [ref=f4e65] [cursor=pointer]
+                - cell "20" [ref=f4e66] [cursor=pointer]
+              - row [ref=f4e67]:
+                - cell "21" [ref=f4e68] [cursor=pointer]
+                - cell "22" [ref=f4e69] [cursor=pointer]
+                - cell "23" [ref=f4e70] [cursor=pointer]
+                - cell "24" [ref=f4e71] [cursor=pointer]
+                - cell "25" [ref=f4e72] [cursor=pointer]
+                - cell "26" [ref=f4e73] [cursor=pointer]
+                - cell "27" [ref=f4e74] [cursor=pointer]
+              - row [ref=f4e75]:
+                - cell "28" [ref=f4e76] [cursor=pointer]
+                - cell "29" [ref=f4e77] [cursor=pointer]
+                - cell "30" [ref=f4e78] [cursor=pointer]
+                - cell "1" [ref=f4e79] [cursor=pointer]
+                - cell "2" [ref=f4e80] [cursor=pointer]
+                - cell "3" [ref=f4e81] [cursor=pointer]
+                - cell "4" [ref=f4e82] [cursor=pointer]
+          - generic [ref=f4e83]:
+            - text: Providers
+            - listbox [ref=f4e84]:
+              - option "All Users" [ref=f4e85]
+              - option "Smith, Billy" [selected] [ref=f4e86]
+          - list [ref=f4e87]:
+            - listitem [ref=f4e88]: Great Clinic
+        - table [ref=f4e94]:
+          - rowgroup [ref=f4e95]:
+            - row [ref=f4e96]:
+              - cell [ref=f4e97]:
+                - table [ref=f4e99]:
+                  - rowgroup [ref=f4e100]:
+                    - row [ref=f4e101]:
+                      - cell "" [ref=f4e102]
+                    - row [ref=f4e104]:
+                      - cell [ref=f4e105]:
+                        - link "8:00" [ref=f4e106] [cursor=pointer]:
+                          - /url: javascript:newEvt(1,8,0,"20260921",0,0)
+                    - row [ref=f4e107]:
+                      - cell [ref=f4e108]:
+                        - link "8:15" [ref=f4e109] [cursor=pointer]:
+                          - /url: javascript:newEvt(1,8,15,"20260921",0,0)
+                    - row [ref=f4e110]:
+                      - cell [ref=f4e111]:
+                        - link "8:30" [ref=f4e112] [cursor=pointer]:
+                          - /url: javascript:newEvt(1,8,30,"20260921",0,0)
+                    - row [ref=f4e113]:
+                      - cell [ref=f4e114]:
+                        - link "8:45" [ref=f4e115] [cursor=pointer]:
+                          - /url: javascript:newEvt(1,8,45,"20260921",0,0)
+                    - row [ref=f4e116]:
+                      - cell [ref=f4e117]:
+                        - link "9:00" [ref=f4e118] [cursor=pointer]:
+                          - /url: javascript:newEvt(1,9,0,"20260921",0,0)
+                    - row [ref=f4e119]:
+                      - cell [ref=f4e120]:
+                        - link "9:15" [ref=f4e121] [cursor=pointer]:
+                          - /url: javascript:newEvt(1,9,15,"20260921",0,0)
+                    - row [ref=f4e122]:
+                      - cell [ref=f4e123]:
+                        - link "9:30" [ref=f4e124] [cursor=pointer]:
+                          - /url: javascript:newEvt(1,9,30,"20260921",0,0)
+                    - row [ref=f4e125]:
+                      - cell [ref=f4e126]:
+                        - link "9:45" [ref=f4e127] [cursor=pointer]:
+                          - /url: javascript:newEvt(1,9,45,"20260921",0,0)
+                    - row [ref=f4e128]:
+                      - cell [ref=f4e129]:
+                        - link "10:00" [ref=f4e130] [cursor=pointer]:
+                          - /url: javascript:newEvt(1,10,0,"20260921",0,0)
+                    - row [ref=f4e131]:
+                      - cell [ref=f4e132]:
+                        - link "10:15" [ref=f4e133] [cursor=pointer]:
+                          - /url: javascript:newEvt(1,10,15,"20260921",0,0)
+                    - row [ref=f4e134]:
+                      - cell [ref=f4e135]:
+                        - link "10:30" [ref=f4e136] [cursor=pointer]:
+                          - /url: javascript:newEvt(1,10,30,"20260921",0,0)
+                    - row [ref=f4e137]:
+                      - cell [ref=f4e138]:
+                        - link "10:45" [ref=f4e139] [cursor=pointer]:
+                          - /url: javascript:newEvt(1,10,45,"20260921",0,0)
+                    - row [ref=f4e140]:
+                      - cell [ref=f4e141]:
+                        - link "11:00" [ref=f4e142] [cursor=pointer]:
+                          - /url: javascript:newEvt(1,11,0,"20260921",0,0)
+                    - row [ref=f4e143]:
+                      - cell [ref=f4e144]:
+                        - link "11:15" [ref=f4e145] [cursor=pointer]:
+                          - /url: javascript:newEvt(1,11,15,"20260921",0,0)
+                    - row [ref=f4e146]:
+                      - cell [ref=f4e147]:
+                        - link "11:30" [ref=f4e148] [cursor=pointer]:
+                          - /url: javascript:newEvt(1,11,30,"20260921",0,0)
+                    - row [ref=f4e149]:
+                      - cell [ref=f4e150]:
+                        - link "11:45" [ref=f4e151] [cursor=pointer]:
+                          - /url: javascript:newEvt(1,11,45,"20260921",0,0)
+                    - row [ref=f4e152]:
+                      - cell [ref=f4e153]:
+                        - link "12:00" [ref=f4e154] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,12,0,"20260921",0,0)
+                    - row [ref=f4e155]:
+                      - cell [ref=f4e156]:
+                        - link "12:15" [ref=f4e157] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,12,15,"20260921",0,0)
+                    - row [ref=f4e158]:
+                      - cell [ref=f4e159]:
+                        - link "12:30" [ref=f4e160] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,12,30,"20260921",0,0)
+                    - row [ref=f4e161]:
+                      - cell [ref=f4e162]:
+                        - link "12:45" [ref=f4e163] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,12,45,"20260921",0,0)
+                    - row [ref=f4e164]:
+                      - cell [ref=f4e165]:
+                        - link "13:00" [ref=f4e166] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,13,0,"20260921",0,0)
+                    - row [ref=f4e167]:
+                      - cell [ref=f4e168]:
+                        - link "13:15" [ref=f4e169] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,13,15,"20260921",0,0)
+                    - row [ref=f4e170]:
+                      - cell [ref=f4e171]:
+                        - link "13:30" [ref=f4e172] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,13,30,"20260921",0,0)
+                    - row [ref=f4e173]:
+                      - cell [ref=f4e174]:
+                        - link "13:45" [ref=f4e175] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,13,45,"20260921",0,0)
+                    - row [ref=f4e176]:
+                      - cell [ref=f4e177]:
+                        - link "14:00" [ref=f4e178] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,14,0,"20260921",0,0)
+                    - row [ref=f4e179]:
+                      - cell [ref=f4e180]:
+                        - link "14:15" [ref=f4e181] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,14,15,"20260921",0,0)
+                    - row [ref=f4e182]:
+                      - cell [ref=f4e183]:
+                        - link "14:30" [ref=f4e184] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,14,30,"20260921",0,0)
+                    - row [ref=f4e185]:
+                      - cell [ref=f4e186]:
+                        - link "14:45" [ref=f4e187] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,14,45,"20260921",0,0)
+                    - row [ref=f4e188]:
+                      - cell [ref=f4e189]:
+                        - link "15:00" [ref=f4e190] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,15,0,"20260921",0,0)
+                    - row [ref=f4e191]:
+                      - cell [ref=f4e192]:
+                        - link "15:15" [ref=f4e193] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,15,15,"20260921",0,0)
+                    - row [ref=f4e194]:
+                      - cell [ref=f4e195]:
+                        - link "15:30" [ref=f4e196] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,15,30,"20260921",0,0)
+                    - row [ref=f4e197]:
+                      - cell [ref=f4e198]:
+                        - link "15:45" [ref=f4e199] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,15,45,"20260921",0,0)
+                    - row [ref=f4e200]:
+                      - cell [ref=f4e201]:
+                        - link "16:00" [ref=f4e202] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,16,0,"20260921",0,0)
+                    - row [ref=f4e203]:
+                      - cell [ref=f4e204]:
+                        - link "16:15" [ref=f4e205] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,16,15,"20260921",0,0)
+                    - row [ref=f4e206]:
+                      - cell [ref=f4e207]:
+                        - link "16:30" [ref=f4e208] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,16,30,"20260921",0,0)
+                    - row [ref=f4e209]:
+                      - cell [ref=f4e210]:
+                        - link "16:45" [ref=f4e211] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,16,45,"20260921",0,0)
+                    - row [ref=f4e212]:
+                      - cell [ref=f4e213]:
+                        - link "17:00" [ref=f4e214] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,17,0,"20260921",0,0)
+                    - row [ref=f4e215]:
+                      - cell [ref=f4e216]:
+                        - link "17:15" [ref=f4e217] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,17,15,"20260921",0,0)
+                    - row [ref=f4e218]:
+                      - cell [ref=f4e219]:
+                        - link "17:30" [ref=f4e220] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,17,30,"20260921",0,0)
+                    - row [ref=f4e221]:
+                      - cell [ref=f4e222]:
+                        - link "17:45" [ref=f4e223] [cursor=pointer]:
+                          - /url: javascript:newEvt(2,17,45,"20260921",0,0)
+              - cell "Billy Smith " [ref=f4e224]:
+                - generic [ref=f4e225]:
+                  - text: Billy Smith
+                  - generic [ref=f4e226]: 
+    - text: 
+  - generic: 8.4.0

@@ -28,4 +28,28 @@ test.describe('Invalid Login Scenarios', () => {
     await expect(passwordField).toBeEmpty();
     await expect(page).toHaveURL('https://demo.openemr.io/b/openemr/interface/login/login.php?site=default');
   });
+
+  test('Valid username with invalid password', async ({ page }) => {
+    // 1. Navigate to the OpenEMR login page
+    await page.goto('https://demo.openemr.io/b/openemr/interface/login/login.php?site=default');
+    const usernameField = page.getByRole('textbox', { name: 'Username' });
+    const passwordField = page.getByRole('textbox', { name: 'Password' });
+    await expect(usernameField).toBeVisible();
+    await expect(passwordField).toBeVisible();
+
+    // 2. Enter a known valid username (e.g. 'admin') in the Username field
+    await usernameField.fill('admin');
+    await expect(usernameField).toHaveValue('admin');
+
+    // 3. Enter an incorrect password (e.g. 'wrongpass123') in the Password field
+    await passwordField.fill('wrongpass123');
+    await expect(passwordField).toHaveValue('wrongpass123');
+
+    // 4. Click the Login button
+    await page.getByRole('button', { name: 'Login' }).click();
+    await expect(page.getByText('Invalid username or password')).toBeVisible();
+    await expect(usernameField).toBeEmpty();
+    await expect(passwordField).toBeEmpty();
+    await expect(page).toHaveURL('https://demo.openemr.io/b/openemr/interface/login/login.php?site=default');
+  });
 });
